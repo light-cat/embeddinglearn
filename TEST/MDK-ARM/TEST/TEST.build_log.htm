@@ -1,0 +1,112 @@
+<html>
+<body>
+<pre>
+<h1>µVision Build Log</h1>
+<h2>Tool Versions:</h2>
+IDE-Version: ¦ÌVision V5.24.2.0
+Copyright (C) 2017 ARM Ltd and ARM Germany GmbH. All rights reserved.
+License Information: 111 222, 333, LIC=LSNXV-PKK0M-GKYBG-VF5IV-2CWL3-5AJMY
+ 
+Tool Versions:
+Toolchain:       MDK-ARM Plus  Version: 5.24.1
+Toolchain Path:  D:\Keil_v5\ARM\ARMCC\Bin
+C Compiler:      Armcc.exe V5.06 update 5 (build 528)
+Assembler:       Armasm.exe V5.06 update 5 (build 528)
+Linker/Locator:  ArmLink.exe V5.06 update 5 (build 528)
+Library Manager: ArmAr.exe V5.06 update 5 (build 528)
+Hex Converter:   FromElf.exe V5.06 update 5 (build 528)
+CPU DLL:         SARMCM3.DLL V5.24.1
+Dialog DLL:      DCM.DLL V1.16.0.0
+Target DLL:      STLink\ST-LINKIII-KEIL_SWO.dll V3.0.1.0
+Dialog DLL:      TCM.DLL V1.32.0.0
+ 
+<h2>Project:</h2>
+C:\Users\71984\Desktop\stm32f103c8t6_bmp180_plusensor_lcd1.44_motorencoder\TEST\MDK-ARM\TEST.uvprojx
+Project File Date:  08/09/2023
+
+<h2>Output:</h2>
+*** Using Compiler 'V5.06 update 5 (build 528)', folder: 'D:\Keil_v5\ARM\ARMCC\Bin'
+Rebuild target 'TEST'
+assembling startup_stm32f103xb.s...
+compiling delay.c...
+compiling stm32f1xx_it.c...
+compiling stm32f1xx_hal_adc.c...
+compiling stm32f1xx_hal_msp.c...
+compiling stm32f1xx_hal_gpio_ex.c...
+compiling bmp180.c...
+compiling gui.c...
+compiling stm32f1xx_hal_tim_ex.c...
+compiling main.c...
+../Src/main.c(199): warning:  #167-D: argument of type "char *" is incompatible with parameter of type "unsigned char *"
+  		Gui_DrawFont_GBK16(64,60,
+ED,
+HITE,strcat(str4,space_str4));
+../Src/main.c(204): warning:  #167-D: argument of type "char *" is incompatible with parameter of type "unsigned char *"
+  		Gui_DrawFont_GBK16(64,80,
+ED,
+HITE,strcat(str5,space_str5));
+../Src/main.c(209): warning:  #167-D: argument of type "char *" is incompatible with parameter of type "unsigned char *"
+  		Gui_DrawFont_GBK16(64,100,
+ED,
+HITE,strcat(str6,space_str6));
+../Src/main.c(224): warning:  #167-D: argument of type "char *" is incompatible with parameter of type "unsigned char *"
+  				Gui_DrawFont_GBK16(64,0,
+ED,
+HITE,strcat(str,space_str));
+../Src/main.c(233): warning:  #167-D: argument of type "char *" is incompatible with parameter of type "unsigned char *"
+  		Gui_DrawFont_GBK16(64,20,
+ED,
+HITE,strcat(str2,space_str1));
+../Src/main.c(238): warning:  #167-D: argument of type "char *" is incompatible with parameter of type "unsigned char *"
+  		Gui_DrawFont_GBK16(64,40,
+ED,
+HITE,strcat(str3,space_str2));
+../Src/main.c(148): warning:  #550-D: variable "ID"  was set but never used
+  	unsigned char ID = 0;
+../Src/main.c: 7 warnings, 0 errors
+compiling stm32f1xx_hal.c...
+compiling lcd_driver.c...
+compiling stm32f1xx_hal_uart.c...
+compiling myiic.c...
+compiling stm32f1xx_hal_adc_ex.c...
+compiling stm32f1xx_hal_tim.c...
+compiling stm32f1xx_hal_exti.c...
+compiling stm32f1xx_hal_rcc_ex.c...
+compiling stm32f1xx_hal_pwr.c...
+compiling system_stm32f1xx.c...
+compiling stm32f1xx_hal_gpio.c...
+compiling stm32f1xx_hal_cortex.c...
+compiling stm32f1xx_hal_flash.c...
+compiling stm32f1xx_hal_dma.c...
+compiling stm32f1xx_hal_flash_ex.c...
+compiling stm32f1xx_hal_rcc.c...
+linking...
+Program Size: Code=18620 RO-data=7052 RW-data=124 ZI-data=1540  
+FromELF: creating hex file...
+"TEST\TEST.axf" - 0 Error(s), 7 Warning(s).
+
+<h2>Software Packages used:</h2>
+
+Package Vendor: ARM
+                http://www.keil.com/pack/ARM.CMSIS.5.0.1.pack
+                ARM.CMSIS.5.0.1
+                CMSIS (Cortex Microcontroller Software Interface Standard)
+   * Component: CORE Version: 5.0.1
+
+Package Vendor: Keil
+                http://www.keil.com/pack/Keil.STM32F1xx_DFP.2.2.0.pack
+                Keil.STM32F1xx_DFP.2.2.0
+                STMicroelectronics STM32F1 Series Device Support, Drivers and Examples
+
+<h2>Collection of Component include folders:</h2>
+  .\RTE\_TEST
+  D:\Keil_v5\ARM\PACK\ARM\CMSIS\5.0.1\CMSIS\Include
+  D:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.2.0\Device\Include
+
+<h2>Collection of Component Files used:</h2>
+
+   * Component: ARM::CMSIS:CORE:5.0.1
+Build Time Elapsed:  00:00:04
+</pre>
+</body>
+</html>
